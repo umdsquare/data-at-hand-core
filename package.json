@@ -18,5 +18,9 @@
   "homepage": "https://github.com/data-at-hand/data-at-hand-logging#readme",
   "devDependencies": {
     "typescript": "^3.8.3"
+  },
+
+  "exports": {
+    "./": "./src/"
   }
 }
