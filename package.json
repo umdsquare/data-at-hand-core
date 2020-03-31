@@ -1,0 +1,23 @@
+{
+  "name": "@data-at-hand/logging",
+  "version": "1.0.0",
+  "description": "Logging core library of DataAtHand",
+  "main": "./src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/data-at-hand/data-at-hand-logging.git"
+  },
+  "author": "Young-Ho Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/data-at-hand/data-at-hand-logging/issues"
+  },
+  "homepage": "https://github.com/data-at-hand/data-at-hand-logging#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
