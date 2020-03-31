@@ -1,4 +1,3 @@
-
 export enum InteractionTransitionLogType {
     Transition = "trans",
     VerboseEvent = "event"
