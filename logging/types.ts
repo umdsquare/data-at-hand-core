@@ -1,5 +1,7 @@
 import { ExplorationInfo } from "../exploration/ExplorationInfo";
 import { ActionTypeBase } from "../exploration/actions";
+import { SpeechContext } from "../speech/SpeechContext";
+import { NLUResult } from "../speech/types";
 
 export enum InteractionTransitionLogType {
     Transition = "trans",
@@ -13,6 +15,14 @@ export enum VerboseEventTypes {
     SpeechCommandFail = "SpeechCommandFail",
 
     VoidSpeechAction = "VoidSpeech"
+}
+
+export interface SpeechCommandLog {
+    id: string,
+    inputText: string,
+    explorationInfo: ExplorationInfo,
+    speechContext: SpeechContext,
+    result: NLUResult
 }
 
 interface StateLogBase {
