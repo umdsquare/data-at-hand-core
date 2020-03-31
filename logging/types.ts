@@ -1,4 +1,5 @@
 import { ExplorationInfo } from "../exploration/ExplorationInfo";
+import { ActionTypeBase } from "../exploration/actions";
 
 export enum InteractionTransitionLogType {
     Transition = "trans",
@@ -23,7 +24,7 @@ interface StateLogBase {
 export interface InteractionStateTransitionLog extends StateLogBase {
     type: InteractionTransitionLogType.Transition,
     service: string,
-    action: { type: string, metadata?: any },
+    action: ActionTypeBase
     nextInfo: ExplorationInfo,
 }
 
@@ -40,7 +41,7 @@ export interface SimpleEventLog extends VerboseEventLog {
 
 export interface VoidSpeechEventLog extends VerboseEventLog {
     event: VerboseEventTypes.VoidSpeechAction,
-    action: { type: string, metadata?: any },
+    action: ActionTypeBase,
     speechLogId: string
 }
 
