@@ -1,2 +1,2 @@
-# data-at-hand-logging
-Logging core library of DataAtHand
+# @data-at-hand/core
+Core library of Data@Hand
