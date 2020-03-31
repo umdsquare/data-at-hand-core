@@ -1,7 +1,7 @@
 {
-  "name": "@data-at-hand/logging",
-  "version": "1.0.0",
-  "description": "Logging core library of DataAtHand",
+  "name": "@data-at-hand/core",
+  "version": "0.3.0",
+  "description": "Core library of DataAtHand",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
@@ -18,9 +18,5 @@
   "homepage": "https://github.com/data-at-hand/data-at-hand-logging#readme",
   "devDependencies": {
     "typescript": "^3.8.3"
-  },
-
-  "exports": {
-    "./": "./src/"
   }
 }
