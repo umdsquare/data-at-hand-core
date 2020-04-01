@@ -43,7 +43,7 @@ export interface ActionTypeBase {
     _metadata?: any
 }
 
-interface ExplorationActionBase extends ActionTypeBase {
+export interface ExplorationActionBase extends ActionTypeBase {
   interactionType: InteractionType;
   interactionContext?: string;
 }
