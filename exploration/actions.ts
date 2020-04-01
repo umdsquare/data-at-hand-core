@@ -45,6 +45,7 @@ export interface ActionTypeBase {
 
 interface ExplorationActionBase extends ActionTypeBase {
   interactionType: InteractionType;
+  interactionContext?: string;
 }
 
 export interface MemoUIStatusAction extends ActionTypeBase {
