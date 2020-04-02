@@ -4,7 +4,7 @@
   "description": "Core library of DataAtHand",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
