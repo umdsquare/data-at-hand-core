@@ -4,7 +4,8 @@
   "description": "Core library of DataAtHand",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "postinstall": "tsc index.ts --lib esnext"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,6 @@
   },
   "dependencies": {
     "date-fns": "^2.11.1"
-  }
+  },
+  "main": "index.ts"
 }
