@@ -5,7 +5,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "postinstall": "tsc ./index.ts --lib esnext"
   },
   "repository": {
     "type": "git",
