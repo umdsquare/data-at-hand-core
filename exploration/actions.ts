@@ -20,7 +20,7 @@ export enum ExplorationActionType {
   GoToBrowseOverview = 'exploration:interaction:user:goToBrowseOverview',
   GoToBrowseDay = 'exploration:interaction:user:goToBrowseDay',
   GoToComparisonCyclic = 'exploration:interaction:user:goToComparisonCyclic',
-  GoToComparisonToRanges = 'exploration:interaction:user:goToComparisonTwoRanges',
+  GoToComparisonTwoRanges = 'exploration:interaction:user:goToComparisonTwoRanges',
   GoToCyclicDetailDaily = "exploration:interaction:user:goToCyclicDetailDaily",
   GoToCyclicDetailRange = "exploration:interaction:user:goToCyclicDetailRange",
 
