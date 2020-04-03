@@ -43,6 +43,8 @@ import {
 
 import{
     NLUResultType,
+    VariableType,
+    Intent,
 } from './speech/types';
 
 
@@ -80,6 +82,8 @@ export {
     SpeechContextHelper,
 
     NLUResultType,
+    VariableType,
+    Intent,
 
     DateTimeHelper
 };

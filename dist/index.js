@@ -31,6 +31,8 @@ exports.SpeechContextType = SpeechContext_1.SpeechContextType;
 exports.SpeechContextHelper = SpeechContext_1.SpeechContextHelper;
 const types_2 = require("./speech/types");
 exports.NLUResultType = types_2.NLUResultType;
+exports.VariableType = types_2.VariableType;
+exports.Intent = types_2.Intent;
 //Utils
 const time_1 = require("./utils/time");
 exports.DateTimeHelper = time_1.DateTimeHelper;
