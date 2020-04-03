@@ -16,7 +16,7 @@ var ExplorationActionType;
     ExplorationActionType["GoToBrowseOverview"] = "exploration:interaction:user:goToBrowseOverview";
     ExplorationActionType["GoToBrowseDay"] = "exploration:interaction:user:goToBrowseDay";
     ExplorationActionType["GoToComparisonCyclic"] = "exploration:interaction:user:goToComparisonCyclic";
-    ExplorationActionType["GoToComparisonToRanges"] = "exploration:interaction:user:goToComparisonTwoRanges";
+    ExplorationActionType["GoToComparisonTwoRanges"] = "exploration:interaction:user:goToComparisonTwoRanges";
     ExplorationActionType["GoToCyclicDetailDaily"] = "exploration:interaction:user:goToCyclicDetailDaily";
     ExplorationActionType["GoToCyclicDetailRange"] = "exploration:interaction:user:goToCyclicDetailRange";
     //History
