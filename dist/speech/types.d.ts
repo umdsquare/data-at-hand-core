@@ -39,7 +39,7 @@ export interface ConditionInfo {
     type: NumericConditionType;
     impliedDataSource?: DataSourceType;
     propertyKey?: "waketime" | "bedtime" | undefined | null;
-    ref?: number;
+    ref?: number | "goal";
 }
 export declare enum NLUResultType {
     Effective = 1,
