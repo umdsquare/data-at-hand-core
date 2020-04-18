@@ -46,5 +46,5 @@ export interface HighlightFilter {
     dataSource: DataSourceType;
     type: NumericConditionType;
     propertyKey?: string;
-    ref?: number | "goal";
+    ref?: number;
 }

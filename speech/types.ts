@@ -49,7 +49,7 @@ export interface ConditionInfo {
     type: NumericConditionType,
     impliedDataSource?: DataSourceType,
     propertyKey?: "waketime" | "bedtime" | undefined | null
-    ref?: number | "goal"
+    ref?: number
 }
 
 
