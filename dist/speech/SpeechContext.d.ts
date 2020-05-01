@@ -12,6 +12,9 @@ export declare enum SpeechContextType {
 }
 export interface SpeechContext {
     type: SpeechContextType;
+    uiStatus?: {
+        [key: string]: any;
+    };
 }
 export interface GlobalSpeechContext extends SpeechContext {
     explorationType: ExplorationType;

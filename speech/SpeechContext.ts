@@ -14,7 +14,8 @@ export enum SpeechContextType {
 }
 
 export interface SpeechContext {
-    type: SpeechContextType
+    type: SpeechContextType,
+    uiStatus?: { [key: string]: any }
 }
 
 export interface GlobalSpeechContext extends SpeechContext {
