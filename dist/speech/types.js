@@ -22,5 +22,6 @@ var NLUResultType;
     NLUResultType[NLUResultType["Void"] = 0] = "Void";
     NLUResultType[NLUResultType["Unapplicable"] = -1] = "Unapplicable";
     NLUResultType[NLUResultType["Fail"] = -2] = "Fail";
+    NLUResultType[NLUResultType["NeedPromptingToGlobalCommand"] = -3] = "NeedPromptingToGlobalCommand";
 })(NLUResultType = exports.NLUResultType || (exports.NLUResultType = {}));
 //# sourceMappingURL=types.js.map
