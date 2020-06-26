@@ -85,6 +85,7 @@ export interface SetHighlightFilterAction extends ExplorationActionBase {
 export interface GoToBrowseRangeAction extends ExplorationActionBase {
   dataSource?: DataSourceType;
   range?: [number, number];
+  highlightFilter?: HighlightFilter | null
 }
 
 export interface GoToBrowseDayAction extends ExplorationActionBase {
