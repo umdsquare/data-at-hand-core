@@ -53,5 +53,5 @@ export interface NLUResult {
     preprocessed: PreProcessedInputText;
     action?: ActionTypeBase | null;
     message?: string;
-    globalCommandSimulatedAction?: ActionTypeBase;
+    globalCommandSimulatedResult?: NLUResult;
 }
