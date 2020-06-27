@@ -11,6 +11,7 @@ export declare enum VerboseEventTypes {
     LoggingTurnedOn = "LoggingTurnedOn",
     LoggingTurnedOff = "LoggingTurnedOff",
     SpeechCommandFail = "SpeechCommandFail",
+    RejectedMultimodal = "RejectedMultimodal",
     VoidSpeechAction = "VoidSpeech"
 }
 export interface SpeechCommandLog {

@@ -11,6 +11,7 @@ var VerboseEventTypes;
     VerboseEventTypes["LoggingTurnedOn"] = "LoggingTurnedOn";
     VerboseEventTypes["LoggingTurnedOff"] = "LoggingTurnedOff";
     VerboseEventTypes["SpeechCommandFail"] = "SpeechCommandFail";
+    VerboseEventTypes["RejectedMultimodal"] = "RejectedMultimodal";
     VerboseEventTypes["VoidSpeechAction"] = "VoidSpeech";
 })(VerboseEventTypes = exports.VerboseEventTypes || (exports.VerboseEventTypes = {}));
 //# sourceMappingURL=types.js.map
