@@ -88,10 +88,11 @@ cycleDimensionSpecs[CycleDimension.October] = {name: 'October'} as any;
 cycleDimensionSpecs[CycleDimension.November] = {name: 'November'} as any;
 cycleDimensionSpecs[CycleDimension.December] = {name: 'December'} as any;
 
+/*
 cycleDimensionSpecs[CycleDimension.Spring] = {name: 'Spring'} as any;
 cycleDimensionSpecs[CycleDimension.Summer] = {name: 'Summber'} as any;
 cycleDimensionSpecs[CycleDimension.Fall] = {name: 'Fall'} as any;
-cycleDimensionSpecs[CycleDimension.Winter] = {name: 'Winter'} as any;
+cycleDimensionSpecs[CycleDimension.Winter] = {name: 'Winter'} as any;*/
 
 //cycleDimensionSpecs[CycleDimension.Weekdays] = {name: 'Weekdays'};
 //cycleDimensionSpecs[CycleDimension.Weekends] = {name: 'Weekends'};
@@ -104,6 +105,8 @@ for (const dimension of Object.keys(cycleDimensionSpecs)) {
   cycleDimensionSpecs[dimension].timeKey = Number.parseInt(split[2])
   
 }
+
+export const allSupportedCycleDimensionSpecs = Object.keys(cycleDimensionSpecs).map(d => cycleDimensionSpecs[d])
 
 export function getHomogeneousCycleDimensionList(dimension: CycleDimension){
   const spec = getCycleDimensionSpec(dimension)

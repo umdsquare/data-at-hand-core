@@ -74,10 +74,11 @@ cycleDimensionSpecs[CycleDimension.September] = { name: 'September' };
 cycleDimensionSpecs[CycleDimension.October] = { name: 'October' };
 cycleDimensionSpecs[CycleDimension.November] = { name: 'November' };
 cycleDimensionSpecs[CycleDimension.December] = { name: 'December' };
-cycleDimensionSpecs[CycleDimension.Spring] = { name: 'Spring' };
-cycleDimensionSpecs[CycleDimension.Summer] = { name: 'Summber' };
-cycleDimensionSpecs[CycleDimension.Fall] = { name: 'Fall' };
-cycleDimensionSpecs[CycleDimension.Winter] = { name: 'Winter' };
+/*
+cycleDimensionSpecs[CycleDimension.Spring] = {name: 'Spring'} as any;
+cycleDimensionSpecs[CycleDimension.Summer] = {name: 'Summber'} as any;
+cycleDimensionSpecs[CycleDimension.Fall] = {name: 'Fall'} as any;
+cycleDimensionSpecs[CycleDimension.Winter] = {name: 'Winter'} as any;*/
 //cycleDimensionSpecs[CycleDimension.Weekdays] = {name: 'Weekdays'};
 //cycleDimensionSpecs[CycleDimension.Weekends] = {name: 'Weekends'};
 for (const dimension of Object.keys(cycleDimensionSpecs)) {
@@ -87,6 +88,7 @@ for (const dimension of Object.keys(cycleDimensionSpecs)) {
     cycleDimensionSpecs[dimension].level = split[0];
     cycleDimensionSpecs[dimension].timeKey = Number.parseInt(split[2]);
 }
+exports.allSupportedCycleDimensionSpecs = Object.keys(cycleDimensionSpecs).map(d => cycleDimensionSpecs[d]);
 function getHomogeneousCycleDimensionList(dimension) {
     const spec = getCycleDimensionSpec(dimension);
     return getFilteredCycleDimensionList(spec.cycleType);

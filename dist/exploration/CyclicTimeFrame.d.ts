@@ -41,6 +41,7 @@ export interface CycleDimensionSpec {
     level: "year" | "day";
     timeKey: number;
 }
+export declare const allSupportedCycleDimensionSpecs: CycleDimensionSpec[];
 export declare function getHomogeneousCycleDimensionList(dimension: CycleDimension): CycleDimensionSpec[];
 export declare function getFilteredCycleDimensionList(cycleType: CyclicTimeFrame): CycleDimensionSpec[];
 export declare function getCycleDimensionSpec(dimension: CycleDimension): CycleDimensionSpec;
