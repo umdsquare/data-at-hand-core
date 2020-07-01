@@ -12,6 +12,7 @@ var VerboseEventTypes;
     VerboseEventTypes["LoggingTurnedOff"] = "LoggingTurnedOff";
     VerboseEventTypes["SpeechCommandFail"] = "SpeechCommandFail";
     VerboseEventTypes["RejectedMultimodal"] = "RejectedMultimodal";
+    VerboseEventTypes["CanceledSpeechPromptDialog"] = "CanceledSpeechPromptDialog";
     VerboseEventTypes["VoidSpeechAction"] = "VoidSpeech";
 })(VerboseEventTypes = exports.VerboseEventTypes || (exports.VerboseEventTypes = {}));
 //# sourceMappingURL=types.js.map
