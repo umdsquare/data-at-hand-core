@@ -46,7 +46,7 @@ export declare enum NLUResultType {
     Void = 0,
     Unapplicable = -1,
     Fail = -2,
-    NeedPromptingToGlobalCommand = -3
+    PromptingInformDialog = -3
 }
 export interface NLUResult {
     type: NLUResultType;
