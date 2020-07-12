@@ -62,6 +62,7 @@ export interface SetCycleTypeAction extends ExplorationActionBase {
 }
 export interface SetHighlightFilterAction extends ExplorationActionBase {
     highlightFilter: HighlightFilter | null;
+    range?: [number, number];
 }
 export interface GoToBrowseRangeAction extends ExplorationActionBase {
     dataSource?: DataSourceType;
