@@ -2,7 +2,7 @@ import { DataSourceType } from "../measure/DataSourceSpec";
 export interface ExplorationInfo {
     type: ExplorationType;
     values: ExplorationInfoParams;
-    highlightFilter?: HighlightFilter;
+    dataDrivenQuery?: DataDrivenQuery;
 }
 export declare enum ExplorationType {
     B_Overview = "b_overview",
@@ -42,7 +42,7 @@ export declare enum NumericConditionType {
     Less = "less",
     More = "more"
 }
-export interface HighlightFilter {
+export interface DataDrivenQuery {
     dataSource: DataSourceType;
     type: NumericConditionType;
     propertyKey?: string;

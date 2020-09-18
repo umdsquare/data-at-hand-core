@@ -10,7 +10,7 @@ var ExplorationActionType;
     ExplorationActionType["SetDate"] = "exploration:interaction:user:setDate";
     ExplorationActionType["SetCycleType"] = "exploration:interaction:user:etCycleType";
     ExplorationActionType["SetCycleDimension"] = "exploration:interaction:user:setCycleDimension";
-    ExplorationActionType["SetHighlightFilter"] = "exploration:interaction:user:setHighlightFilter";
+    ExplorationActionType["SetDataDrivenQuery"] = "exploration:interaction:user:setDataDrivenQuery";
     ExplorationActionType["ShiftAllRanges"] = "exploration:interaction:user:shiftAllRanges";
     ExplorationActionType["GoToBrowseRange"] = "exploration:interaction:user:goToBrowseRange";
     ExplorationActionType["GoToBrowseOverview"] = "exploration:interaction:user:goToBrowseOverview";

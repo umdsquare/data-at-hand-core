@@ -29,7 +29,7 @@ export enum Intent {
     AssignTrivial = "Assign",
     Browse = "Browse",
     Compare = "Compare",
-    Highlight = "Highlight"
+    Query = "Query"
 }
 
 export interface VerbInfo {

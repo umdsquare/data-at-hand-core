@@ -3,7 +3,7 @@ import { DataSourceType } from "../measure/DataSourceSpec";
 export interface ExplorationInfo {
     type: ExplorationType;
     values: ExplorationInfoParams;
-    highlightFilter?: HighlightFilter
+    dataDrivenQuery?: DataDrivenQuery
 }
 
 export enum ExplorationType {
@@ -52,7 +52,7 @@ export enum NumericConditionType {
     More = "more"
 }
 
-export interface HighlightFilter {
+export interface DataDrivenQuery {
     dataSource: DataSourceType,
     type: NumericConditionType,
     propertyKey?: string,

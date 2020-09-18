@@ -1,6 +1,6 @@
 import { DataSourceType, IntraDayDataSourceType } from "../measure/DataSourceSpec";
 import { CyclicTimeFrame, CycleDimension } from "./CyclicTimeFrame";
-import { HighlightFilter } from "./ExplorationInfo";
+import { DataDrivenQuery } from "./ExplorationInfo";
 import { TouchingElementInfo } from "./TouchingElementInfo";
 export declare const USER_INTERACTION_ACTION_PREFIX = "exploration:interaction:user";
 export declare enum ExplorationActionType {
@@ -11,7 +11,7 @@ export declare enum ExplorationActionType {
     SetDate = "exploration:interaction:user:setDate",
     SetCycleType = "exploration:interaction:user:etCycleType",
     SetCycleDimension = "exploration:interaction:user:setCycleDimension",
-    SetHighlightFilter = "exploration:interaction:user:setHighlightFilter",
+    SetDataDrivenQuery = "exploration:interaction:user:setDataDrivenQuery",
     ShiftAllRanges = "exploration:interaction:user:shiftAllRanges",
     GoToBrowseRange = "exploration:interaction:user:goToBrowseRange",
     GoToBrowseOverview = "exploration:interaction:user:goToBrowseOverview",
@@ -60,14 +60,14 @@ export interface SetIntraDayDataSourceAction extends ExplorationActionBase {
 export interface SetCycleTypeAction extends ExplorationActionBase {
     cycleType: CyclicTimeFrame;
 }
-export interface SetHighlightFilterAction extends ExplorationActionBase {
-    highlightFilter: HighlightFilter | null;
+export interface SetDataDrivenQueryAction extends ExplorationActionBase {
+    dataDrivenQuery: DataDrivenQuery | null;
     range?: [number, number];
 }
 export interface GoToBrowseRangeAction extends ExplorationActionBase {
     dataSource?: DataSourceType;
     range?: [number, number];
-    highlightFilter?: HighlightFilter | null;
+    dataDrivenQuery?: DataDrivenQuery | null;
 }
 export interface GoToBrowseDayAction extends ExplorationActionBase {
     intraDayDataSource?: IntraDayDataSourceType;

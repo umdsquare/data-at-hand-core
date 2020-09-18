@@ -14,7 +14,7 @@ var Intent;
     Intent["AssignTrivial"] = "Assign";
     Intent["Browse"] = "Browse";
     Intent["Compare"] = "Compare";
-    Intent["Highlight"] = "Highlight";
+    Intent["Query"] = "Query";
 })(Intent = exports.Intent || (exports.Intent = {}));
 var NLUResultType;
 (function (NLUResultType) {
