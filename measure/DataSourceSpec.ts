@@ -6,7 +6,7 @@ export enum DataSourceCategory{
 }
 
 export enum DataSourceType{
-  StepCount="stepcount",
+  StepCount="step_count",
   HoursSlept="sleep_duration",
   SleepRange="sleep_range",
   HeartRate="heart_rate",

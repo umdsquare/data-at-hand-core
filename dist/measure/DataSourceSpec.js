@@ -9,7 +9,7 @@ var DataSourceCategory;
 })(DataSourceCategory = exports.DataSourceCategory || (exports.DataSourceCategory = {}));
 var DataSourceType;
 (function (DataSourceType) {
-    DataSourceType["StepCount"] = "stepcount";
+    DataSourceType["StepCount"] = "step_count";
     DataSourceType["HoursSlept"] = "sleep_duration";
     DataSourceType["SleepRange"] = "sleep_range";
     DataSourceType["HeartRate"] = "heart_rate";
