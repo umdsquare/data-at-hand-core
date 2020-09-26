@@ -34,8 +34,9 @@ export enum ExplorationActionType {
 }
 
 export enum InteractionType {
-  TouchOnly = 'touchonly',
-  Speech = 'speech',
+  TouchOnly = 'touch',
+  SpeechOnly = 'speech',
+  TouchAndSpeech = "touchspeech"
 }
 
 export interface ActionTypeBase {
@@ -86,7 +87,6 @@ export interface SetDataDrivenQueryAction extends ExplorationActionBase {
 export interface GoToBrowseRangeAction extends ExplorationActionBase {
   dataSource?: DataSourceType;
   range?: [number, number];
-  dataDrivenQuery?: DataDrivenQuery | null
 }
 
 export interface GoToBrowseDayAction extends ExplorationActionBase {
