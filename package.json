@@ -1,6 +1,6 @@
 {
   "name": "@data-at-hand/core",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Core library of DataAtHand",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
