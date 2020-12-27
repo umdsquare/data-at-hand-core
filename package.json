@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/data-at-hand/data-at-hand-logging.git"
+    "url": "git+https://github.com/umdsquare/data-at-hand-core.git"
   },
   "author": "Young-Ho Kim",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/data-at-hand/data-at-hand-logging/issues"
+    "url": "https://github.com/umdsquare/data-at-hand-core/issues"
   },
-  "homepage": "https://github.com/data-at-hand/data-at-hand-logging#readme",
+  "homepage": "https://data-at-hand.github.io",
   "devDependencies": {
     "typescript": "^3.8.3"
   },
